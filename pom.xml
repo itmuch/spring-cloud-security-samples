@@ -4,7 +4,7 @@
 
 	<groupId>com.itmuch.study</groupId>
 	<artifactId>spring-cloud-security-samples</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.8-RELEASE</version>
 	<packaging>pom</packaging>
 
     <parent>
@@ -29,7 +29,7 @@
 		<connection>scm:git:${git.url}</connection>
 		<developerConnection>scm:git:${git.url}</developerConnection>
 		<url>${git.url}</url>
-		<tag>spring-cloud-security-samples-0.0.6</tag>
+		<tag>spring-cloud-security-samples-0.0.8-RELEASE</tag>
 	</scm>
 	<distributionManagement>
         <repository>
