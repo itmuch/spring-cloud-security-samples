@@ -6,9 +6,10 @@
 	<groupId>com.itmuch.study</groupId>
 	<artifactId>spring-cloud-security-samples</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pomr</packaging>
+	<packaging>pom</packaging>
 
 	<modules>
 		<module>security-1</module>
+		<module>security-2</module>
 	</modules>
 </project>
