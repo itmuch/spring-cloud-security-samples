@@ -4,7 +4,7 @@
 
 	<groupId>com.itmuch.study</groupId>
 	<artifactId>security-1</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.5</version>
 	<packaging>jar</packaging>
 
 	<name>security-1</name>
@@ -54,6 +54,6 @@
 	</build>
 
   <scm>
-    <tag>spring-cloud-security-samples-0.0.2</tag>
+    <tag>spring-cloud-security-samples-0.0.5</tag>
   </scm>
 </project>
