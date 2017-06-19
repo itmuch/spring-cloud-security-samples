@@ -4,7 +4,7 @@
 
 	<groupId>com.itmuch.study</groupId>
 	<artifactId>spring-cloud-security-samples</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
