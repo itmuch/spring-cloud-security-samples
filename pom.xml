@@ -19,12 +19,24 @@
 		<git.url>https://github.com/itmuch/spring-cloud-security-samples.git</git.url>
 	</properties>
 
-		<scm>
+	<scm>
 		<connection>scm:git:${git.url}</connection>
 		<developerConnection>scm:git:${git.url}</developerConnection>
 		<url>${git.url}</url>
 		<tag>HEAD</tag>
 	</scm>
+	<distributionManagement>
+        <repository>
+            <id>Releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 	<build>
 		<plugins>
