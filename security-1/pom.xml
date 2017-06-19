@@ -4,12 +4,17 @@
 
 	<groupId>com.itmuch.study</groupId>
 	<artifactId>security-1</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>security-1</name>
 	<description>Spring Cloud Security示例</description>
 
+	<parent>
+		<groupId>com.itmuch.study</groupId>
+		<artifactId>spring-cloud-security-samples</artifactId>
+		<version>0.0.6-SNAPSHOT</version>
+	</parent>
 
 
 	<properties>
@@ -18,11 +23,6 @@
 		<java.version>1.8</java.version>
 	</properties>
 
-	<parent>
-		<groupId>com.itmuch.study</groupId>
-		<artifactId>spring-cloud-security-samples</artifactId>
-		<version>0.0.6-SNAPSHOT</version>
-	</parent>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
